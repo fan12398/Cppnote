@@ -7,15 +7,9 @@
 
 using namespace std;
 
-CLcd::CLcd()
+/// 成员初始化顺序只与声明的顺序有关，与下面的书写顺序无关
+CLcd::CLcd(int x, int y) : x(x), y(y)
 {
-    x = 0;
-    y = 0;
-}
-
-CLcd::~CLcd()
-{
-
 }
 
 

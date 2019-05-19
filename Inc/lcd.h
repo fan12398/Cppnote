@@ -9,8 +9,7 @@
 class CLcd
 {
 public:
-    CLcd();
-    ~CLcd();
+    CLcd(int a, int b);
     void printChar();
     void setx(int x);
     void sety(int y);
